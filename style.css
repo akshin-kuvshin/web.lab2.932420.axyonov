@@ -219,3 +219,15 @@ form button:focus {
     outline: 3px solid #ffb15c;
     outline-offset: 3px;
 }
+
+footer {
+    margin-top: 48px;
+    padding: 24px;
+    background-color: var(--color-footer);
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
