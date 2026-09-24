@@ -125,3 +125,7 @@ header p {
     font-size: 1.25rem;
     text-align: center;
 }
+
+section h2 {
+    position: static; /* no effect btw */
+}
