@@ -13,7 +13,7 @@
 
 <body>
 
-    <header style="background-color: #e8873a; color: white;">
+    <header>
         <h1>Данила Аксёнов, гр. 932420</h1>
         <p>Путешественник</p>
     </header>
@@ -41,16 +41,18 @@
 
         <!-- image moved out from #about section to be placed left from <aside>-block -->
         <!-- original image is in 1:1 format -->
-        <img src="./img/me.jpg"
-            alt="Фотография студента"
-            width="300"
-            height="300">
+        <div class="about-media">
+            <img src="./img/me.jpg"
+                alt="Фотография студента"
+                width="300"
+                height="300">
 
-        <aside style="float: right; width: 300px; background-color: #f8c58a;">
-            <h2>Любимое место</h2>
+            <aside>
+                <h2 class="aside-badge">Любимое место</h2>
 
-            <p>Моё любимое место - Южный Берег Крыма. Сочетание Чёрного моря, граничащего с горными массивами, следов греческой культуры и города-героя Севастополя не оставят равнодушными никого.</p>
-        </aside>
+                <p>Моё любимое место - Южный Берег Крыма. Сочетание Чёрного моря, граничащего с горными массивами, следов греческой культуры и города-героя Севастополя не оставят равнодушными никого.</p>
+            </aside>
+        </div>
 
         <section id="skills">
             <h2>Навыки</h2>
@@ -87,22 +89,19 @@
                 <p> <label>Имя:</label><br>
                     <input type="text"
                         name="name"
-                        placeholder="Введите ваше имя"
-                        style="width: 300px;">
+                        placeholder="Введите ваше имя">
                 </p>
 
                 <p> <label>Email:</label><br>
                     <input type="email"
                         name="email"
-                        placeholder="Введите ваш email"
-                        style="width: 300px;">
+                        placeholder="Введите ваш email">
                 </p>
 
                 <p> <label>Сообщение:</label><br>
                     <textarea name="message"
                         placeholder="Введите ваше сообщение"
-                        rows="7"
-                        style="width: 300px;"></textarea>
+                        rows="7"></textarea>
                 </p>
 
                 <!-- fake button - not really sending your feedback anywhere -->
@@ -112,7 +111,7 @@
 
     </main>
 
-    <footer style="background-color: #7a3f16; color: white;">
+    <footer>
         <p>© Данила "akshin_" Аксёнов - 2026</p>
     </footer>
 
