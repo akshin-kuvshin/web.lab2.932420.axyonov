@@ -114,3 +114,14 @@ section {
     outline: 3px solid #ffb15c;
     outline-offset: -3px;
 }
+
+header {
+    padding: 32px;
+    background-color: var(--color-header);
+}
+
+header p {
+    margin: 8px 0 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
